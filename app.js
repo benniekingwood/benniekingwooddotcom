@@ -11,7 +11,7 @@ var express 						= require('express')
 
 // configuration
 app.configure(function() {
-	app.set('port', 5555);
+	app.set('port', process.env.PORT || 5000);
   app.use("/assets", express.static(__dirname + '/assets'));
   app.use(express.logger('dev'));
   app.use(express.bodyParser());
