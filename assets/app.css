@@ -101,8 +101,8 @@ i { font-size: 50px; }
 }
 
 .conopsys { background-color: #333333; padding-top: 5px; }
-.conopsys img, .vanishcubes img { height: 90px;}
-.ulink { background-color: #378194;padding-top: 20px; }
+.conopsys img, .vanishcubes img, .ulink img { height: 90px;}
+.ulink { background-color: #378194;padding-top: 5px; }
 .vanishcubes { background-color: #111111; padding-top: 5px;}
 .myhome { background-color: #004d85; }
 .myhome-icon {
@@ -156,3 +156,14 @@ i { font-size: 50px; }
 
 #od-12 i { color: #f39c12; }
 .od-12 { background-color: #f39c12; }
+
+/* Small devices (tablets, 768px and below) */
+@media (max-width: 768px) { 
+    h1 { font-size: 1.9em; }
+}
+/* Really Small devices (tablets, 537px and below) */
+@media (max-width: 537px) { 
+    h1 { font-size: 1.3em !important; }
+    .ulink { padding-top: 25px; }
+    .ulink img { height: 50px;}
+}
