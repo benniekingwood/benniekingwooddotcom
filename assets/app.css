@@ -100,10 +100,10 @@ i { font-size: 50px; }
   border-right: 1px solid #f1f1f1;
 }
 
-.conopsys { background-color: #333333; padding-top: 5px; }
-.conopsys img, .vanishcubes img, .ulink img { height: 90px;}
-.ulink { background-color: #378194;padding-top: 5px; }
-.vanishcubes { background-color: #111111; padding-top: 5px;}
+.conopsys { background-color: #333333; padding-top: 20px; }
+.conopsys img, .vanishcubes img, .ulink img { height: 60px;}
+.ulink { background-color: #378194;padding-top: 20px; }
+.vanishcubes { background-color: #111111; padding-top: 20px;}
 .myhome { background-color: #004d85; }
 .myhome-icon {
   border-radius: 50%;
